@@ -13,7 +13,7 @@ const (
 	limitHttpCode = 429
 )
 
-// For token bucket algo
+// For token bucket algorithm
 /**
 Token bucket - tokens are added to a ‘bucket’ at a fixed rate.
 The bucket has a fixed capacity. When a request is made it will only be accepted if there are enough tokens in the bucket. Tokens are removed from the bucket when a request is accepted.
